@@ -1,0 +1,19 @@
+Para executar a aplicação
+1) Criar pasta 
+   mkdir desafio01
+1.1)Acessar pasta
+   cd desafio01
+2) Fazer o clone do projeto
+git clone https://github.com/netsec2minutes/conversao-temperatura.git
+
+2.1) Acessar pasta
+    cd \conversao-temperatura/src
+3)Fazer o build da imagem
+
+sudo docker image build -t autor/conversaodocker:v1 .
+
+4) Executar o Docker
+
+sudo docker run -d -p 5678:8080 nomedocriado/conversaodocker:v1
+
+5) Conferir a execução
