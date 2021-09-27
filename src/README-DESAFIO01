@@ -10,10 +10,10 @@ git clone https://github.com/netsec2minutes/conversao-temperatura.git
     cd \conversao-temperatura/src
 3)Fazer o build da imagem
 
-sudo docker image build -t autor/conversaodocker:v1 .
+sudo docker image build -t danilo/conversaodocker:v1 .
 
 4) Executar o Docker
 
-sudo docker run -d -p 5678:8080 nomedocriado/conversaodocker:v1
+sudo docker run -d -p 5678:8080 danilo/conversaodocker:v1
 
 5) Conferir a execução
