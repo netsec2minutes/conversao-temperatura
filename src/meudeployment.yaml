@@ -6,11 +6,11 @@ spec:
  replicas: 2
  selector:
   matchLabels:
-   app: labelweb
+   app: conversao-temperatura
  template:
   metadata:
    labels:
-    app: labelweb
+    app: conversao-temperatura
   spec:
    containers:
    - name: web
@@ -26,7 +26,7 @@ metadata:
  name: web
 spec:
  selector:
-  app: labelweb
+  app: conversao-temperatura
  ports:
   - port: 80
     protocol: TCP
